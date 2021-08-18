@@ -1,7 +1,7 @@
 {
   "name": "movies-explorer-api",
   "version": "1.0.0",
-  "description": "rest api for movies",
+  "description": "rest api formovies",
   "main": "app.js",
   "scripts": {
     "lint": "npx eslint .",
