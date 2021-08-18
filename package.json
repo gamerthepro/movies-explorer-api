@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint .",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamerthepro/movies-explorer-api.git"
+  },
+  "author": "Polonnikov Artem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamerthepro/movies-explorer-api/issues"
+  },
+  "homepage": "https://github.com/gamerthepro/movies-explorer-api#readme"
+}
