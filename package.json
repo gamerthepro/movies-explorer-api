@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "movies-explorer-api",
   "version": "1.0.0",
   "description": "### В данном репозитории - API для проекта. ### npm run start — запускает сервер ### npm run dev — запускает сервер с hot-reload",
   "main": "index.js",
