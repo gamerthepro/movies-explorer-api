@@ -9,7 +9,7 @@ require('dotenv').config();
 
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 const routes = require('./routes');
-const NotFoundError = require('./errors/not-found-err');
+const NotFoundError = require('./errors/404-NotFoundError');
 
 const { PORT = 3000 } = process.env;
 

@@ -45,7 +45,7 @@ module.exports.deleteMovie = (req, res, next) => {
     })
     .then((data) => {
       if (data.owner._id.toString() !== req.user._id.toString()) {
-        throw new NotFoundError ('Чужие фильмы нельзя удалять');
+        throw new NotFoundError('Чужие фильмы нельзя удалять');
       }
       Movie.findByIdAndRemove(req.params.id)
         .then((movie) => res.status(200).send({ data: movie }))
