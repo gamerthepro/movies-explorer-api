@@ -1,8 +1,8 @@
 {
   "name": "movies-explorer-api",
   "version": "1.0.0",
-  "description": "### В данном репозитории - API для проекта. ### npm run start — запускает сервер ### npm run dev — запускает сервер с hot-reload",
-  "main": "index.js",
+  "description": "rest api for movies",
+  "main": "app.js",
   "scripts": {
     "lint": "npx eslint .",
     "lint:fix": "eslint . --fix",
@@ -37,9 +37,5 @@
     "mongoose": "^5.12.7",
     "validator": "^13.6.0",
     "winston": "^3.3.3"
-  },
-  "bugs": {
-    "url": "https://github.com/gamerthepro/movies-explorer-api/issues"
-  },
-  "homepage": "https://github.com/gamerthepro/movies-explorer-api#readme"
+  }
 }
