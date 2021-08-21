@@ -48,7 +48,7 @@ module.exports.deleteMovie = (req, res, next) => {
         throw new NotFoundError('Чужие фильмы нельзя удалять');
       }
       Movie.findByIdAndRemove(req.params.id)
-        .then((movie) => res.status(200).send({ data: movie }))
+        .then((movie) => res.status(200).send(movie))
         .catch((err) => {
           throw new NotFoundError(err.message);
         })
